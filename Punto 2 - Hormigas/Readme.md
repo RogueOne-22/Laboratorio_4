@@ -1,14 +1,14 @@
- Sistema de Rescate con Drones usando Algoritmo ACO
+# 🧠 Sistema de Rescate con Drones usando Algoritmo ACO 
+![Python](https://img.shields.io/badge/Python-3.7%2B-blue) ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5%2B-orange) ![Numpy](https://img.shields.io/badge/Numpy-1.21%2B-green)
 
-https://img.shields.io/badge/Python-3.7%252B-blue
-https://img.shields.io/badge/Matplotlib-3.5%252B-orange
-https://img.shields.io/badge/Numpy-1.21%252B-green
+  Un sistema de optimización de rutas de rescate que utiliza el algoritmo de colonia de hormigas (ACO) para coordinar drones en la búsqueda de supervivientes y recursos en zonas de desastre.
 
-Un sistema de optimización de rutas de rescate que utiliza el algoritmo de colonia de hormigas (ACO) para coordinar drones en la búsqueda de supervivientes y recursos en zonas de desastre.
-📋 Descripción del Proyecto
+## 📋 Descripción del Proyecto
 
-Este proyecto simula un escenario post-terremoto donde 10 drones (que actúan como hormigas en el algoritmo ACO) colaboran para encontrar supervivientes y recursos de manera eficiente.
-✨ Características Principales
+* Este proyecto simula un escenario post-terremoto donde 10 drones (que actúan como hormigas en el algoritmo ACO) colaboran para encontrar supervivientes y recursos de manera eficiente.
+--
+## ✨ Características Principales
+--
 🤖 Algoritmo ACO Adaptado
 
     10 drones coordinados que actúan como hormigas
@@ -39,89 +39,22 @@ Este proyecto simula un escenario post-terremoto donde 10 drones (que actúan co
 
     Múltiples paneles de métricas y resultados
 
-🔧 Cambios y Mejoras Implementadas
-1. Visualización de Feromonas como Puntos
-
-Las feromonas ahora se representan como puntos discretos en lugar de nubes continuas, mejorando la claridad visual.
-2. Tamaños de Elementos Optimizados
-
-Drones (60px) y feromonas (3-15px) más pequeños para reducir superposición y mejorar la distribución espacial.
-3. Efecto de Estela en Rutas
-
-Implementación de rutas con efecto de estela que muestra la dirección y antigüedad del movimiento.
-4. Leyenda Unificada y Compacta
-
-Leyenda compacta con elementos más pequeños y solo los primeros 3 drones para evitar saturación.
-5. Representación Mejorada de la Mejor Ruta
-
-La mejor ruta global ahora se muestra con waypoints y flechas que indican dirección, facilitando el análisis.
-🚀 Instalación y Ejecución
-Requisitos
-bash
-
-pip install numpy matplotlib
-
-Ejecución
-bash
-# Sistema de Rescate con Drones usando Algoritmo ACO
-
-![Python](https://img.shields.io/badge/Python-3.7%2B-blue) ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5%2B-orange) ![Numpy](https://img.shields.io/badge/Numpy-1.21%2B-green)
-
-Un sistema de optimización de rutas de rescate que utiliza el algoritmo de colonia de hormigas (ACO) para coordinar drones en la búsqueda de supervivientes y recursos en zonas de desastre.
-
-## 📋 Descripción del Proyecto
-
-Este proyecto simula un escenario post-terremoto donde 10 drones (que actúan como hormigas en el algoritmo ACO) colaboran para encontrar supervivientes y recursos de manera eficiente.
-
-## ✨ Características principales
-
-### 🤖 Algoritmo ACO adaptado
-
-- 10 drones coordinados que actúan como hormigas
-- Sistema de feromonas que se evapora y se actualiza dinámicamente
-- Función de fitness que minimiza el tiempo total de cobertura
-- Probabilidades de transición basadas en feromonas y distancia
-
-### 🗺️ Simulación de terreno
-
-- Puntos de interés aleatorios: supervivientes (70%) y recursos (30%)
-- Cambios dinámicos: nuevos puntos aparecen cada 10 iteraciones
-- Terreno adaptable de 100×100 unidades
-- Métrica de cobertura en tiempo real
-
-### 📊 Sistema de visualización
-
-- Animación en tiempo real del proceso de exploración
-- Rastros de feromonas representados como puntos amarillos
-- Efectos de estela en las rutas de los drones
-- Varios paneles de métricas y resultados
-
-## 🔧 Cambios y mejoras implementadas
-
-1. Visualización de feromonas como puntos (mejora la claridad visual).
-2. Tamaños de elementos optimizados: drones (60px) y feromonas (3–15px).
-3. Efecto de estela en rutas para mostrar dirección y antigüedad del movimiento.
-4. Leyenda unificada y compacta (solo primeros 3 drones visibles en la leyenda).
-5. Representación mejorada de la mejor ruta (waypoints y flechas).
-
-## 🚀 Instalación y ejecución
-
-### Requisitos
-
-Instalar dependencias (recomendado usar un entorno virtual):
-
-```bash
-pip install -r requirements.txt
-# o, si prefieres instalar paquetes individuales:
-pip install numpy matplotlib
-```
-
-### Ejecución
-
-```bash
-python aco_rescate_drones.py
-```
-
+# 🔧 Cambios y Mejoras Implementadas
+  * Visualización de Feromonas como Puntos:
+     Las feromonas ahora se representan como puntos discretos en lugar de nubes continuas, mejorando la claridad visual.
+  
+  * Tamaños de Elementos Optimizados:
+     Drones (60px) y feromonas (3-15px) más pequeños para reducir superposición y mejorar la distribución espacial.
+    
+  * Efecto de Estela en Rutas  
+     Implementación de rutas con efecto de estela que muestra la dirección y antigüedad del movimiento.
+    
+  *  Leyenda Unificada y Compacta
+     Leyenda compacta con elementos más pequeños y solo los primeros 3 drones para evitar saturación.
+     
+  *  Representación Mejorada de la Mejor Ruta
+     La mejor ruta global ahora se muestra con waypoints y flechas que indican dirección, facilitando el análisis.
+--
 ## Parámetros configurables
 
 Ejemplo de parámetros en el archivo principal (`aco_rescate_drones.py`):
@@ -146,6 +79,10 @@ El sistema genera cuatro tipos de visualizaciones:
 - Análisis por drone: cobertura individual y eficiencia de rutas
 
 ### Ejemplo de salida
+
+
+https://github.com/user-attachments/assets/230e8a2f-f0f3-413f-bb9d-d51a76e6836e
+
 
 <video controls src="https://github.com/RogueOne-22/Laboratorio_4/blob/c9423d81fc051df091b791b50ca72f1fa5f7ae2a/Punto%202%20-%20Hormigas/Grabaci%C3%B3n%20de%20pantalla%202025-10-17%20093909.mp4" title="Ejemplo final"></video>
 
