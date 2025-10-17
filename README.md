@@ -15,6 +15,8 @@ Este conjunto de proyectos explora **el comportamiento colectivo de drones** apl
 Simulación de **40 drones** que se organizan automáticamente para recrear figuras o siluetas, inspiradas en formaciones de espectáculos aéreos.  
 El sistema genera los puntos de las figuras y los drones los siguen coordinadamente, ajustando posiciones y colores en tiempo real.
 
+![Drones](https://github.com/RogueOne-22/Laboratorio_4/blob/dbbad14269104f682b9e004faf5c1b1660b6a120/Punto%201%20Emjambre/emjambre.gif)
+
 ### ⚙️ Implementación
 - Visualización 2D con proyección 3D de profundidad.
 - Extracción de puntos de contorno y relleno para formar figuras.
@@ -43,6 +45,8 @@ Cada abeja tiene un rol:
 - **Obreras**: polinizan flores maduras.  
 - **Exploradoras**: buscan nuevas flores.  
 - **Observadoras**: analizan la eficiencia de las rutas.
+
+![Abejas](image.png)
 
 ### ⚙️ Características Principales
 - Simulación 2D con un **panel informativo en tiempo real**.
@@ -77,6 +81,8 @@ Cada abeja tiene un rol:
 ### 📋 Descripción
 Simulación de **10 drones de rescate** que colaboran mediante el **algoritmo de colonia de hormigas (ACO)** para localizar supervivientes y recursos en un área post-desastre.  
 El sistema optimiza las rutas colectivas mediante feromonas digitales.
+
+![Hormigas](https://github.com/RogueOne-22/Laboratorio_4/blob/dbbad14269104f682b9e004faf5c1b1660b6a120/Punto%202%20-%20Hormigas/Captura%20de%20pantalla%202025-10-17%20095221.png)
 
 ### 🤖 Algoritmo ACO Adaptado
 - 10 drones (hormigas) con feromonas dinámicas.
