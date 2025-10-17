@@ -57,6 +57,10 @@ Generada mediante coordenadas polares con radio alternante (estrella de 5 puntas
 Contorno: vértices exteriores e interiores.  
 Relleno: puntos en la región central.
 
+![Primer intento](https://github.com/RogueOne-22/Laboratorio_4/blob/c9423d81fc051df091b791b50ca72f1fa5f7ae2a/Punto%201%20Emjambre/drone_show.gif)
+
+<video controls src="https://github.com/RogueOne-22/Laboratorio_4/blob/c9423d81fc051df091b791b50ca72f1fa5f7ae2a/Punto%201%20Emjambre/final.mp4" title="Resultado"></video>
+
 ---
 
 ## 🎨 Visualización
@@ -127,8 +131,9 @@ El fitness guía la actualización del enjambre, priorizando formaciones precisa
 
 ---
 
-## 🎥 Resultado esperado
-La animación muestra un grupo de **40 puntos** desplazándose coordinadamente para recrear tres figuras distintas.  
-Cada figura se mantiene visible unos segundos antes de transformarse suavemente en la siguiente, sin colisiones ni acumulaciones.
+## 🎥 Resultado
+ - La animación muestra un grupo de **40 drones** desplazándose coordinadamente para recrear tres figuras distintas.  
+ - Cada figura se mantiene visible unos segundos antes de transformarse suavemente en la siguiente, sin colisiones ni acumulaciones.
+ 
 
 

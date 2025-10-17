@@ -147,6 +147,12 @@ El sistema genera cuatro tipos de visualizaciones:
 
 ### Ejemplo de salida
 
+<video controls src="https://github.com/RogueOne-22/Laboratorio_4/blob/c9423d81fc051df091b791b50ca72f1fa5f7ae2a/Punto%202%20-%20Hormigas/Grabaci%C3%B3n%20de%20pantalla%202025-10-17%20093909.mp4" title="Ejemplo final"></video>
+
+Luego de cerrar la simulación se genera una nueva imagen mosntrado el resumen.
+
+![alt text](https://github.com/RogueOne-22/Laboratorio_4/blob/c9423d81fc051df091b791b50ca72f1fa5f7ae2a/Punto%202%20-%20Hormigas/Captura%20de%20pantalla%202025-10-17%20095221.png)
+
 ```text
 Iteración 25: Cobertura 76.7%, Tiempo: 145.32
 Iteración 25: Nuevo punto descubierto!
@@ -160,13 +166,13 @@ Total de puntos en el mapa: 34
 
 ## 🎨 Convenciones visuales
 
-| Elemento        | Símbolo | Color   | Tamaño  |
-|----------------|:-------:|:-------:|:-------:|
-| Supervivientes | ●       | Rojo    | 80px    |
-| Recursos       | ■       | Azul    | 80px    |
-| Drones         | ▲       | Verde   | 60px    |
-| Feromonas      | •       | Amarillo| 3–15px  |
-| Mejor Ruta     | →       | Verde   | 2px     |
+| Elemento        | Símbolo | Color   |
+|----------------|:-------:|:-------:|
+| Supervivientes | ●       | Rojo    |
+| Recursos       | ■       | Azul    |
+| Drones         | ▲       | Verde   |
+| Feromonas      | •       | Amarillo|
+| Mejor Ruta     | →       | Verde   |
 
 ## 🔄 Flujo del algoritmo
 
