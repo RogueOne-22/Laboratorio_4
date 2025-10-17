@@ -34,6 +34,11 @@ SEED = 42
 np.random.seed(SEED)
 random.seed(SEED)
 
+# GIF export options
+SAVE_GIF = True
+GIF_FILENAME = "emjambre.gif"
+GIF_FPS = int(1000 / INTERVAL_MS)
+
 # Colors
 COLOR_ROBOT = "#7fb3ff"
 COLOR_DRAGON = "#ff4d4d"
@@ -348,7 +353,27 @@ def run_animation():
         return scat, targ_scat, title
 
     ani = animation.FuncAnimation(fig, update, interval=INTERVAL_MS, blit=False)
+    # keep a persistent reference to the animation to avoid it being garbage-collected
+    try:
+        fig.anim = ani
+    except Exception:
+        globals()['anim'] = ani
+
+    # Optionally save to GIF (requires Pillow/Imagemagick/ffmpeg or Pillow writer)
+    if SAVE_GIF:
+        try:
+            from PIL import Image
+            print(f"Guardando animación como GIF: {GIF_FILENAME} (fps={GIF_FPS})")
+            # use PillowWriter via matplotlib's animation API
+            writer = animation.PillowWriter(fps=GIF_FPS)
+            ani.save(GIF_FILENAME, writer=writer)
+            print(f"GIF guardado: {GIF_FILENAME}")
+        except Exception as e:
+            print("No fue posible guardar GIF automáticamente:", type(e).__name__, e)
+
     plt.show()
+    return ani
 
 if __name__ == "__main__":
-    run_animation()
+    # keep reference in main scope
+    anim = run_animation()
