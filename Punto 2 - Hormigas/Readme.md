@@ -149,9 +149,11 @@ El sistema genera cuatro tipos de visualizaciones:
 
 <video controls src="https://github.com/RogueOne-22/Laboratorio_4/blob/c9423d81fc051df091b791b50ca72f1fa5f7ae2a/Punto%202%20-%20Hormigas/Grabaci%C3%B3n%20de%20pantalla%202025-10-17%20093909.mp4" title="Ejemplo final"></video>
 
+![Ejemplo final](https://github.com/RogueOne-22/Laboratorio_4/blob/e4153f7811e72b6391f07868de00954c721a8a84/Punto%202%20-%20Hormigas/Grabaci%C3%B3n%20de%20pantalla%202025-10-17%20094746.mp4)
+
 Luego de cerrar la simulación se genera una nueva imagen mosntrado el resumen.
 
-![alt text](https://github.com/RogueOne-22/Laboratorio_4/blob/c9423d81fc051df091b791b50ca72f1fa5f7ae2a/Punto%202%20-%20Hormigas/Captura%20de%20pantalla%202025-10-17%20095221.png)
+![REsultados](https://github.com/RogueOne-22/Laboratorio_4/blob/c9423d81fc051df091b791b50ca72f1fa5f7ae2a/Punto%202%20-%20Hormigas/Captura%20de%20pantalla%202025-10-17%20095221.png)
 
 ```text
 Iteración 25: Cobertura 76.7%, Tiempo: 145.32
