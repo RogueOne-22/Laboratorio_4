@@ -59,9 +59,11 @@ Relleno: puntos en la región central.
 
 ![Primer intento](https://github.com/RogueOne-22/Laboratorio_4/blob/c9423d81fc051df091b791b50ca72f1fa5f7ae2a/Punto%201%20Emjambre/drone_show.gif)
 
-<video controls src="https://github.com/RogueOne-22/Laboratorio_4/blob/c9423d81fc051df091b791b50ca72f1fa5f7ae2a/Punto%201%20Emjambre/final.mp4" title="Resultado"></video>
 
-![Resultado](https://github.com/RogueOne-22/Laboratorio_4/blob/e4153f7811e72b6391f07868de00954c721a8a84/Punto%201%20Emjambre/final.mp4)
+
+https://github.com/user-attachments/assets/0c0428ee-757e-4494-92d9-a328edd38a60
+
+
 
 ---
 
